@@ -1,0 +1,19 @@
+---
+# tasks file for fetch_json
+
+- name: fetching anslytic.json  into this machine
+  fetch:
+    src: /root/tvme/analytic.IT.properties.json
+    dest: "{{ playbook_dir }}/"
+    flat: yes
+- name: fetching common.IT.properties.json
+  fetch:
+    src: /root/tvme/common.IT.properties.json
+    dest: "{{ playbook_dir }}/"
+    flat: yes
+- name: fetching node.IT.properties.json
+  fetch:
+    src: /root/tvme/node.IT.properties.json
+    dest: "{{ playbook_dir }}/"
+    flat: yes
+

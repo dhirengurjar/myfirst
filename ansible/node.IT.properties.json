@@ -1,0 +1,26 @@
+[
+  {
+    "ESXiHost": "cs2823-06.labs.teradata.com",
+    "OS_Datastore": "cs2823-06.datastore01",
+    "vmName": "tvmelrg243",
+    "eth0": "10.25.119.135",
+    "vmType": "tpa",
+    "Template": "Teradata_Database_16.20.40.01_SLES11_SP3_on_VMware_20190822125747_AMEX12"
+  },
+  {
+    "ESXiHost": "cs2823-06.labs.teradata.com",
+    "OS_Datastore": "cs2823-06.datastore01",
+    "vmName": "tvmelrg244",
+    "eth0": "10.25.119.136",
+    "vmType": "tpa",
+    "Template": "Teradata_Database_16.20.40.01_SLES11_SP3_on_VMware_20190822125747_AMEX12"
+  },
+  {
+    "ESXiHost": "cs2823-06.labs.teradata.com",
+    "OS_Datastore": "cs2823-06.datastore01",
+    "vmName": "tvmelrg245",
+    "eth0": "10.25.119.137",
+    "vmType": "vp",
+    "Template": "Teradata_Viewpoint_16.20.23.04_SLES11_SP3_on_VMware_20190221133958.20190102"
+  }
+]

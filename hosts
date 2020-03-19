@@ -1,0 +1,2 @@
+[dbs_host]
+tvmelrg243.labs.teradata.com ansible_username=root ansible_password=iumb123

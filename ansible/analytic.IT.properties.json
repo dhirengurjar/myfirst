@@ -1,0 +1,42 @@
+[
+  {
+    "ESXiHost": "cs2823-06.labs.teradata.com",
+    "OS_Datastore": "cs2823-06.datastore01",
+    "vmName": "tvmelrg248",
+    "eth0": "10.25.119.140",
+    "vmType": "analytic_launcher",
+    "Template": "Vantage_on_VMware_Deployer_03.04.00.01_SLES12_SP3_20200205162744_AMEX12"
+  },
+  {
+    "ESXiHost": "cs2823-04.labs.teradata.com",
+    "OS_Datastore": "cs2823-04.datastore01",
+    "vmName": "tvmelrg249",
+    "eth0": "10.25.119.141",
+    "vmType": "analytic_master",
+    "Template": "Vantage_on_VMware_Analytic_03.04.00.01_SLES12_SP3_20190910174550_AMEX12"
+  },
+  {
+    "ESXiHost": "cs2823-05.labs.teradata.com",
+    "OS_Datastore": "cs2823-05.datastore01",
+    "vmName": "tvmelrg250",
+    "eth0": "10.25.119.142",
+    "vmType": "analytic_master",
+    "Template": "Vantage_on_VMware_Analytic_03.04.00.01_SLES12_SP3_20190910174550_AMEX12"
+  },
+  {
+    "ESXiHost": "cs2823-14.labs.teradata.com",
+    "OS_Datastore": "cs2823-14.datastore01",
+    "vmName": "tvmelrg251",
+    "eth0": "10.25.119.143",
+    "vmType": "analytic_master",
+    "Template": "Vantage_on_VMware_Analytic_03.04.00.01_SLES12_SP3_20190910174550_AMEX12"
+  },
+  {
+    "ESXiHost": "cs2823-15.labs.teradata.com",
+    "OS_Datastore": "cs2823-15.datastore01",
+    "vmName": "tvmelrg252",
+    "eth0": "10.25.119.144",
+    "vmType": "analytic_worker",
+    "Template": "Vantage_on_VMware_Analytic_03.04.00.01_SLES12_SP3_20190910174550_AMEX12"
+  }
+]

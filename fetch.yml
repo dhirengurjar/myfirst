@@ -1,0 +1,5 @@
+---
+ - name: fetching file from remote machine
+   hosts: dbs_host
+   roles:
+          - fetch_json
